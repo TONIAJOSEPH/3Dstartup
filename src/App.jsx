@@ -3,6 +3,7 @@ import Header from "./components/header";
 import Hero from "./components/hero";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import img from "../public/gradient.png";
 
 export default function App() {
   useEffect(() => {
@@ -16,7 +17,7 @@ export default function App() {
       {/* gradient image */}
       <img
         className="absolute top-0 right-0 opacity-60 -z-1"
-        src="/gradient.png"
+        src={img}
         alt="gradient-img"
       />
       {/* blur effect */}
